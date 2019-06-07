@@ -1,3 +1,2 @@
-leahperri.com
-www.leahperri.com
+www: lperri.github.io.
 
