@@ -1,3 +1,3 @@
-leahmperri.com
-www.leahmperri.com
+leahperri.com
+www.leahperri.com
 
