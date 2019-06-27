@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	overflow-x: hidden;
+	overflow-y: auto;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -229,6 +231,9 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 
+	h2.headertekst {
+  text-align: center;
+}
 	.align-left {
 		text-align: left;
 	}
@@ -244,9 +249,12 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		/* margin: 0 auto; */
+		margin-left: 120px;
 		max-width: calc(100% - 4em);
 		width: 100%;
+		overflow-x: hidden; 
+		overflow-y: auto;
 	}
 
 		.container.xsmall {
@@ -297,6 +305,8 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		overflow-x: hidden; 
+		overflow-y: auto;
 	}
 
 		.row > * {
@@ -3229,12 +3239,22 @@ input, select, textarea {
 	  max-width: 500px;
 	  position: relative;
 	  margin: auto;
+	  overflow-x: hidden;
+	  overflow-y: auto;
 	}
 
-	/* Hide the images by default */
-	.mySlides {
+	 /* Hide the images by default */
+	.mySlides1 {
 	  display: none;
-	}
+	} 
+
+	.mySlides2 {
+	  display: none;
+	} 
+
+	.mySlides3 {
+	  display: none;
+	} 
 
 	/* Next & previous buttons */
 	.prev, .next {
@@ -3245,8 +3265,9 @@ input, select, textarea {
 	  width: auto;
 	  margin: auto;
 	  /*
-	  margin-top: -22px;
-	  margin-right: -15px;
+	  margin-top: -22px;*/
+	  margin-left: 20px;
+	  margin-right: 100px;
 	  */ /*margin-left: 500px; */
 	  padding: 16px;
 	  color: black;
@@ -3312,6 +3333,8 @@ input, select, textarea {
 	  animation-duration: 1.5s;
 	}
 
+
+
 	@-webkit-keyframes fade {
 	  from {opacity: .4} 
 	  to {opacity: 1}
@@ -3321,3 +3344,4 @@ input, select, textarea {
 	  from {opacity: .4} 
 	  to {opacity: 1}
 	}
+

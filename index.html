@@ -43,31 +43,36 @@
 				<!-- Two -->
 					<section id="two">
 						<h2>Recent Work</h2>
-						<div class="scroll">
+					
                             <div class="slideshow-container"> 
                             	
-                            	<div class="mySlides fade" style="text-align:center">
+                            	<div class="mySlides1 fade">
     								<div class="numbertext">1 / 3</div>
 									<img src="images/cern.jpg" style="width:500px;height:400px">
 									<div class="text" style="text-align:center">Compact Muon Solenoid Experiment</div>
 								</div>
 
-								<div class="mySlides fade" style="text-align:center">
+								<div class="mySlides1 fade">
     								<div class="numbertext">2 / 3</div>
 									<img src="images/bg.jpg" style="width:500px;height:400px">
-									<div class="text" style="text-align:center">testing this caption</div>
+									<div class="text" style="text-align:center">*Diagram coming soon*</div>
 								</div>
 
-								<div class="mySlides fade" style="text-align:center">
+								<div class="mySlides1 fade">
     								<div class="numbertext">3 / 3</div>
 									<img src="images/fulls/04.jpg" style="width:500px;height:400px">
-									<div class="text" style="text-align:center">testing this caption</div>
-								</div>
+									<div class="text" style="text-align:center">*Plot coming soon*</div>
 
-								<!-- Next and previous buttons -->
-  							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							</div>
+					
+
+							<!-- Next and previous buttons -->
+
+						<div style="align:center">
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   							<a class="next" onclick="plusSlides(1)">&#10095;</a>
-						</div>
+  						</div>
+						
 						<br>
 
 						<!-- The dots/circles -->
@@ -76,57 +81,92 @@
 						  <span class="dot" onclick="currentSlide(2)" align="center" margin="auto"></span> 
 						  <span class="dot" onclick="currentSlide(3)" align="center" margin="auto"></span> 
 						</div>
-                            
-                            <h3>Particle Track Reconstruction at CERN</h3>
-							<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-                            </div>
-							<div class="slideshow-container">
-								<a href="images/gw.jpg" class="image fit thumb" longdesc="https://iopscience.iop.org/article/10.3847/1538-4357/834/2/154/pdf"><img src="images/gw_thumb.jpg" alt="" /></a>
-								<h3>Parameter Estimation in Gravitational-Wave Astronomy</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</div>
-							<div class="slideshow-container">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Teaching College Physics</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</div>
-						<!--	<div class="slideshow-container">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Reddit Political Comment Classifier</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-						-->	
+                        
+                        <br>
+
+                        <div>
+                        <h2 class="headertekst">Particle Track Reconstruction</h2>
+							<p>As a PhD student, my focus is in experimental particle physics. I currently work on the Compact Muon Solenoid (CMS) experiment located at CERN. I analyze large datasets using Python software that I develop in order to extract meaningful conclusions from the data. My analysis generally follows the following pattern: retrieving and cleaning the data, writing appropriate software (including algorithm development), analyzing the data using the software and then, finally, generating visual representations, such as plots, to support my findings (along with statistics). Most recently, I have been involved in developing a software package that will be used in a detector upgrade scheduled to take place in about a year from now. </p>
 						</div>
+                        
+						
+						<div>
+						<div class="slideshow-container">
+							<div class="mySlides2 fade">
+    								<div class="numbertext">1 / 3</div>
+									<img src="images/gw.jpg" style="width:500px;height:400px">
+									<div class="text" style="text-align:center">Gravitational waves emanating from two black holes merging into one</div>
+								</div>
+
+								<div class="mySlides2 fade">
+    								<div class="numbertext">2 / 3</div>
+									<img src="images/bg.jpg" style="width:500px;height:400px">
+									<div class="text" style="text-align:center">*Paper highlights coming soon*</div>
+								</div>
+
+								<div class="mySlides2 fade">
+    								<div class="numbertext">3 / 3</div>
+									<img src="images/fulls/04.jpg" style="width:500px;height:400px">
+									<div class="text" style="text-align:center">*Plot coming soon*</div>
+						</div>
+						
+						
+
+						<!-- Next and previous buttons -->
+
+						<div style="align:center">
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  						</div>
+						
+						<br>
+
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1)" align="center" margin="auto"></span> 
+						  <span class="dot" onclick="currentSlide(2)" align="center" margin="auto"></span> 
+						  <span class="dot" onclick="currentSlide(3)" align="center" margin="auto"></span> 
+						</div>
+                        
+                        <br>
+
+
+						<div>
+							<h2 class="headertekst">Parameter Estimation in Gravitational-Wave Astronomy</h2>
+							<p>Funded by various NASA scholarships, I worked with the Parameter Estimation LIGO group on gravitational-wave astronomy research at Northwestern. I learned how to code in Python, how to navigate the command line, as well as the basics of high performance computing and Bayesian statistical methods. After gaining experience through participating in various small projects, I took the lead on a study proposed by my advisor. The Parameter Estimation LIGO group uses statistical methods to estimate parameters (physical properties, such as mass) of compact binary objects. One such type of object is the binary neutron star/black hole merger (merger means that the objects are spiraling toward each other due to the mutual gravitational pull). The aim of my study was to determine whether or not it is beneficial (in terms of how well we can perform parameter estimation) to have information about the location in the sky of one of these mergers. The study was published in The Astrophysical Journal and acted as my senior thesis, allowing me to graduate with departmental honors.</p>
+						</div>
+
+						<div class="slideshow-container">
+							<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+							<h2 class="headertekst">Teaching College Physics</h2>
+							<p>During my first year of graduate school I taught undergraduate labs and discussion sections. I taught roughly 40 students per section and most quarters I had 2-3 sections per week. I became very passionate about teaching and my instructor evaluations confirmed that I was successful in preparing and mentoring my students. I was honored when the professor of the course I was teaching asked me to cover one of his upcoming lectures. I preferred teaching students pursuing majors other than physics because I found the process of engendering excitement about physics to be more rewarding than presenting material to students who already have an affinity for the subject. I attribute my success as a teacher to my ability to break down a very technical topic for those who require a more conceptual understanding.</p>
+						</div>
+						
+						
 					</section>
 
 				<!-- Three -->
 					<section id="three">
+						<div class="container" style="align:center">
 						<h2>Let's connect!</h2>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Los Angeles, CA<br />
-										United States
-									</li>
-								
+							<div class="row">
+								<div class="col-8 col-12-small">
 
-								</ul>
-							</div>
+									<form method="post" action="#">
+										<div class="row gtr-uniform gtr-50">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										</div>
+									</form>
+
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+								</div>
+
 						</div>
+					</div>
 					</section>
 
 
